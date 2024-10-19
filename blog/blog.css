@@ -1,0 +1,89 @@
+.center-title {
+    text-align: center;
+    margin: 0 auto;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background-color: goldenrod;
+    margin: 10px 0; 
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    text-decoration: underline;
+    color: hsl(219, 37%, 59%) ;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.main-container {
+    display: flex; /* Flexbox to align articles and filters side by side */
+}
+
+#articlesContainer {
+    flex: 1; /* Allow this section to grow */
+}
+
+#filtersContainer {
+    width: 300px; /* Set a fixed width for the filters */
+    border-left: 2px solid goldenrod; /* Border to separate from articles */
+    background-color: #fff; /* Background color for filters */
+    margin-left: 20px; /* Space between articles and filters */
+    padding: 20px; /* Padding inside the filter box */
+    height: fit-content; /* Fit height to content */
+}
+
+.article {
+    border: 1px solid #ccc;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.content {
+    display: flex;
+}
+
+.details {
+    flex: 1; 
+    padding-right: 20px; 
+    border-right: 2px solid goldenrod;
+}
+
+.main-content {
+    flex: 2; 
+    text-align: center; 
+}
+
+img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
