@@ -56,3 +56,21 @@ body {
     box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2); 
     margin-bottom: 15px; 
 }
+
+.submit-button {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border-color: black;
+    border: 2px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px; 
+    transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+    background-color: white;
+    border-color: black;
+}
