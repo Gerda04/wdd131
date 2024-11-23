@@ -22,13 +22,16 @@
   
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>Recipe Book</title>
   <link rel="stylesheet" href="recipes.css">
+  <script src="main.js" type="module"></script>
   <link href="https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- Wrapper for header and search bar -->
     <div class="header-wrapper">
+      
       <!-- Header Section -->
       <header>
         <img src="images/recipe-book.png" alt="Recipe Book Logo" class="logo">
@@ -40,12 +43,13 @@
         <input
           type="text"
           name="q"
+          id="search-input"
           placeholder="Search recipes..."
           aria-label="Search recipes"
         >
         <button type="submit">Search</button>
       </form>
-    </div>
+    </div> 
   
     <!-- Main Content Section -->
     <main>
