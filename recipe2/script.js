@@ -17,7 +17,6 @@ function loadRandomRecipe() {
   `;
 }
 
-// Event Listener for Button
 document.getElementById('new-recipe-btn').addEventListener('click', loadRandomRecipe);
 
 // Load a random recipe on page load

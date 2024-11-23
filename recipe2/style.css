@@ -30,7 +30,6 @@ body {
     text-align: center;
   }
   
-  /* Recipe Card */
   .recipe-card {
     border: 1px solid #ddd;
     border-radius: 8px;
@@ -57,7 +56,6 @@ body {
     margin-bottom: 8px;
   }
   
-  /* Button */
   button {
     background: #007BFF;
     color: #fff;
