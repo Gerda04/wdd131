@@ -1,0 +1,202 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.logo {
+    width: 40px; 
+    height: auto;
+}
+
+.title {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 3rem;
+    color: #ffd700; 
+}
+
+.poster {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.movie-poster {
+    width: 80%; 
+    max-width: 600px;
+    height: auto;
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2); 
+}
+
+/* Movie Tiles */
+.movie-tiles {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 30px;
+    flex-wrap: wrap; /* Allow tiles to wrap on smaller screens */
+}
+
+.movie-tile {
+    background-color: #333;
+    color: #fff;
+    width: 30%;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+}
+
+.movie-tile img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.movie-tile h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #ffd700
+}
+
+.movie-tile p {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+}
+
+/* Main Content */
+main {
+    text-align: center;
+}
+
+main p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+main a {
+    color: #ffd700;
+    text-decoration: none;
+    font-size: 1.5rem;
+    background-color: #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+main a:hover {
+    background-color: #555;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif; 
+    color: #f1c40f;
+    margin-bottom: 20px; 
+}
+
+.contact-link-container {
+    text-align: center; 
+    margin-top: 20px; 
+}
+
+/* Contact Page Styles */
+main {
+    text-align: center;
+    padding: 30px;
+}
+
+h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #ffd700; /* Yellow for headings */
+}
+
+p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+/* Form */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    background-color: #333;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+label {
+    font-size: 1.2rem;
+    color: #fff;
+    font-weight: bold;
+    align-self: flex-start;
+}
+
+input, textarea {
+    padding: 10px;
+    width: 100%;
+    max-width: 400px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #ffd700; /* Yellow button */
+    border: none;
+    border-radius: 5px;
+    color: #000;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #ffcc00; /* Darker yellow on hover */
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 50px;
+    color: #fff;
+    font-size: 1rem;
+}
+
